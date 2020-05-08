@@ -1,0 +1,14 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.technology {
+  margin: 20px;
+}
+
+.link-route, .link-route:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
