@@ -7,8 +7,12 @@ body {
   margin: 20px;
 }
 
-.link-route, .link-route:hover {
+.link-route,
+.link-route:hover {
   color: inherit;
   text-decoration: none;
 }
 
+.badge {
+  cursor: pointer;
+}

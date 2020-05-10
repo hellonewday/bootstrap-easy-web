@@ -1,207 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Documentation</title>
-    <link href="assets/aos.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
-    <link rel="icon" href="./assets/img/star.png" />
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script src="https://cdn.ckeditor.com/ckeditor5/19.0.0/classic/ckeditor.js"></script>
-    <script src="assets/aos.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentation</title>
+  <link href="assets/aos.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" href="./assets/img/star.png" />
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-      <a id="home" class="navbar-brand" href="./index.html">Maximuss</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#blog">Blog</a>
-          </li>
-          <li>
-            <a href="./docs.html" class="nav-link">Documentation</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search a blog"
-            aria-label="Search"
-          />
-          <button class="btn btn-primary my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
-        <button
-          class="btn btn-warning my-2-my-lg-0"
-          style="margin-left: 10px;"
-          data-toggle="modal"
-          data-target="#exampleModalCenter"
-        >
-          Write blog
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://cdn.ckeditor.com/ckeditor5/19.0.0/classic/ckeditor.js"></script>
+  <script src="assets/aos.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <a id="home" class="navbar-brand" href="./index.html">Maximuss</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        <li>
+          <a href="./docs.html" class="nav-link">Documentation</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search a blog" aria-label="Search" />
+        <button class="btn btn-primary my-2 my-sm-0" type="submit">
+          Search
         </button>
-      </div>
-    </nav>
-    <br />
-    <section>
-      <div class="container">
-        <h1>Thông tin hướng dẫn sử dụng giao diện</h1>
-        <h3 style="color: red;">
-          QUAN TRỌNG: Làm thế nào để tận dung được giao diện này?
-        </h3>
-        <p>Một vài gợi ý cho sự thay đổi:</p>
-        <ul>
-          <li>Sửa tiêu đề đầu trang thành tên của bạn.</li>
-          <li>Thay ngôn ngữ sang Tiếng Việt</li>
-          <li>Thay ảnh trên slide</li>
-          <li>
-            Thêm bớt các thành phần (bỏ Tech Stack, chuyển thành sở thích)
-          </li>
-          <li>Thay màu nút bấm</li>
-          <li>
-            Thay màu thanh đầu trang (warning, primary, default, success, dark)
-          </li>
-          <li>Thay đổi nền các thành phần (Blog màu đen, Contact màu khói)</li>
-          <li>
-            <b
-              ><a
-                class="link-route"
-                href="https://github.com/hellonewday/bootstrap-easy-web"
-                >Đổi mới giao diện trên Github cùng mình bằng cách Fork repo về
-                và gửi pull request bạn muốn thêm</a
-              ></b
-            >
-          </li>
-        </ul>
-        <br />
-        <hr/>
-        <h3>1. Công nghệ sử dụng</h3>
-        <ul>
-          <li><a href="https://getbootstrap.com/">Bootstrap 4</a></li>
-          <li>
-            <a href="https://michalsnik.github.io/aos/"
-              >AOS - Animation On Scroll</a
-            >
-          </li>
-          <li>
-            <a href="https://ckeditor.com/ckeditor-5/download/">CKEditor 5</a>
-          </li>
-        </ul>
-        <br />
-        <hr/>
-        <h3>2. Thành phần chính</h3>
-        <ul>
-          <li>Đầu trang</li>
-          <li>Thanh tìm kiếm</li>
-          <li>Hội thoại tạo blog</li>
-          <li>Slider</li>
-          <li>About me</li>
-          <li>Contact me</li>
-          <li>Blog</li>
-          <li>Chân trang</li>
-        </ul>
-        <br />
-        <hr/>
+      </form>
+      <button class="btn btn-warning my-2-my-lg-0" style="margin-left: 10px;" data-toggle="modal"
+        data-target="#exampleModalCenter">
+        Write blog
+      </button>
+    </div>
+  </nav>
+  <br />
+  <section>
+    <div class="container">
+      <h1>Thông tin hướng dẫn sử dụng giao diện</h1>
+      <h3 style="color: red;">
+        QUAN TRỌNG: Làm thế nào để tận dung được giao diện này?
+      </h3>
+      <p>Một vài gợi ý cho sự thay đổi:</p>
+      <ul>
+        <li>Sửa tiêu đề đầu trang thành tên của bạn.</li>
+        <li>Thay ngôn ngữ sang Tiếng Việt</li>
+        <li>Thay ảnh trên slide</li>
+        <li>
+          Thêm bớt các thành phần (bỏ Tech Stack, chuyển thành sở thích)
+        </li>
+        <li>Thay màu nút bấm</li>
+        <li>
+          Thay màu thanh đầu trang (warning, primary, default, success, dark)
+        </li>
+        <li>Thay đổi nền các thành phần (Blog màu đen, Contact màu khói)</li>
+        <li>
+          <b><a class="link-route" href="https://github.com/hellonewday/bootstrap-easy-web">Đổi mới giao diện trên
+              Github cùng mình bằng cách Fork repo về
+              và gửi pull request bạn muốn thêm</a></b>
+        </li>
+      </ul>
+      <br />
+      <hr />
+      <h3>1. Công nghệ sử dụng</h3>
+      <ul>
+        <li><a href="https://getbootstrap.com/">Bootstrap 4</a></li>
+        <li>
+          <a href="https://michalsnik.github.io/aos/">AOS - Animation On Scroll</a>
+        </li>
+        <li>
+          <a href="https://ckeditor.com/ckeditor-5/download/">CKEditor 5</a>
+        </li>
+      </ul>
+      <br />
+      <hr />
+      <h3>2. Thành phần chính</h3>
+      <ul>
+        <li>Đầu trang</li>
+        <li>Thanh tìm kiếm</li>
+        <li>Hội thoại tạo blog</li>
+        <li>Slider</li>
+        <li>About me</li>
+        <li>Contact me</li>
+        <li>Blog</li>
+        <li>Chân trang</li>
+      </ul>
+      <br />
+      <hr />
 
-        <h3>3. Khối kiến thức BS4 sử dụng</h3>
-        <ul>
-          <li>
-            <a href="https://getbootstrap.com/docs/4.4/components/navbar/"
-              >Navbar</a
-            >
-            <i>(đầu trang)</i>
-          </li>
-          <li>
-            <a
-              href="https://getbootstrap.com/docs/4.4/layout/overview/#containers"
-              >Container</a
-            >
-            -
-            <a href="https://getbootstrap.com/docs/4.4/utilities/flex/">Flex</a>
-            -
-            <a href="https://getbootstrap.com/docs/4.4/layout/grid/">
-              Grid System</a
-            >
-            <i>(About, Contact, Blog)</i>
-          </li>
-          <li>
-            <a href="https://getbootstrap.com/docs/4.4/components/modal/"
-              >Modal</a
-            >
-            <i>(Viết blog)</i>
-          </li>
-          <li>
-            <a href="https://getbootstrap.com/docs/4.4/components/forms/"
-              >Form </a
-            ><i>(Thanh tìm kiếm, Contact, Viết blog)</i>
-          </li>
-          <li>
-            <a href="https://getbootstrap.com/docs/4.4/components/carousel/"
-              >Carousel</a
-            >
-            <i>(Slider)</i>
-          </li>
-          <li>
-            <a href="https://getbootstrap.com/docs/4.4/components/card/"
-              >Card</a
-            >
-            <i>(Blog)</i>
-          </li>
-          <li>
-            <a href="https://getbootstrap.com/docs/4.4/components/buttons/"
-              >Button</a
-            >
-            <i>(Thanh tìm kiếm, Contact, Viết blog)</i>
-          </li>
-        </ul>
-      </div>
-    </section>
+      <h3>3. Khối kiến thức BS4 sử dụng</h3>
+      <ul>
+        <li>
+          <a href="https://getbootstrap.com/docs/4.4/components/navbar/">Navbar</a>
+          <i>(đầu trang)</i>
+        </li>
+        <li>
+          <a href="https://getbootstrap.com/docs/4.4/layout/overview/#containers">Container</a>
+          -
+          <a href="https://getbootstrap.com/docs/4.4/utilities/flex/">Flex</a>
+          -
+          <a href="https://getbootstrap.com/docs/4.4/layout/grid/">
+            Grid System</a>
+          <i>(About, Contact, Blog)</i>
+        </li>
+        <li>
+          <a href="https://getbootstrap.com/docs/4.4/components/modal/">Modal</a>
+          <i>(Viết blog)</i>
+        </li>
+        <li>
+          <a href="https://getbootstrap.com/docs/4.4/components/forms/">Form </a><i>(Thanh tìm kiếm, Contact, Viết
+            blog)</i>
+        </li>
+        <li>
+          <a href="https://getbootstrap.com/docs/4.4/components/carousel/">Carousel</a>
+          <i>(Slider)</i>
+        </li>
+        <li>
+          <a href="https://getbootstrap.com/docs/4.4/components/card/">Card</a>
+          <i>(Blog)</i>
+        </li>
+        <li>
+          <a href="https://getbootstrap.com/docs/4.4/components/buttons/">Button</a>
+          <i>(Thanh tìm kiếm, Contact, Viết blog)</i>
+        </li>
+        <li>
+          <a href="https://getbootstrap.com/docs/4.0/components/badge/">Badge</a>
+          <i>(Blog)</i>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
